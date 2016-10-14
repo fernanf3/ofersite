@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/logo_solo.ico" type="image/x-icon"/>
+
+    <title>Ofersite</title>
+	
+    <!-- Bootstrap Core CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Timeline CSS -->
+    <link href="dist/css/timeline.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+    <div id="wrapper-art">
+
+        <!-- Navigation -->
+        <nav class="navbar" id="nav1">
+            <nav class=" navbar-ofer navbar-fixed-top" role="navigation" style="margin-bottom: 0;" id="nav2">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <button class="btn btn-ofer publicar-responsive blue" style="margin-left: 2.5%"><i class="glyphicon glyphicon-map-marker"></i></button>
+                    <button class="btn btn-ofer publicar-responsive blue" onclick="javascript:location.href='update_products.html'""><i class="glyphicon glyphicon-eye-open"></i></button>
+                    <a class="navbar-brand ofer-white" style="font-size: x-large" href="index.html"><img width="8%" style="transform:rotate(-5deg);display:initial" src="img/logo_solo.png" alt="">Ofersite</a>
+                </div>
+                <!-- /.navbar-header -->
+                <!-- <div class="input-group custom-search-form">
+                    <input type="text" class="form-control" placeholder="Buscar...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </span>
+                </div> -->
+                <div class="input-group custom-search-form">
+                    <input type="text" class="search-input"  data-toggle="dropdown" placeholder="Buscar">
+                    <span class="fa fa-search form-control-feedback" style="color:white;top:4px;cursor:pointer;right:-10px;"></span>
+                </div>
+                <button class="btn btn-ofer publicar blue"><i class="glyphicon glyphicon-map-marker"></i></button>
+                <button class="btn btn-ofer publicar blue" onclick="javascript:location.href='update_products.html'""><i class="glyphicon glyphicon-eye-open"></i></button>
+                <ul class="dropdown-menu sugerent">
+                            <li>
+                                <a href="#" class="a-ofer a-cir-blue">
+                                    <div>
+                                        <img src="img/img/Pre_Promo_03.png" class="img-sugerent img-responsive" alt="" style="margin-top:1%;"> 
+                                        <div style="width: 50%;position: relative;display: inline-table;margin-left: 2%;">
+                                            <span style="font-size:115%;font-weight:700;">Prueba</span><span style="display:block;font-size:90%;">Detalles Producto</span>
+                                        </div>
+                                        <span style="margin-top:4%;" class="pull-right text-muted small">350$</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#" class="a-ofer a-cir-blue">
+                                    <div>
+                                        <img src="img/img/Pre_Promo_04.png" class="img-sugerent img-responsive" alt="" style="margin-top:1%;"> 
+                                        <div style="width: 50%;position: relative;display: inline-table;margin-left: 2%;">
+                                            <span style="font-size:115%;font-weight:700;">Prueba</span><span style="display:block;font-size:90%;">Detalles Producto</span>
+                                        </div>
+                                        <span style="margin-top:4%;" class="pull-right text-muted small">350$</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#" class="a-ofer a-cir-blue">
+                                    <div>
+                                        <img src="img/img/Pre_Promo_08.png" class="img-sugerent img-responsive" alt="" style="margin-top:1%;"> 
+                                        <div style="width: 50%;position: relative;display: inline-table;margin-left: 2%;">
+                                            <span style="font-size:115%;font-weight:700;">Prueba</span><span style="display:block;font-size:90%;">Detalles Producto</span>
+                                        </div>
+                                        <span style="margin-top:4%;font-size:115%" class="pull-right text-muted small">350$</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#" class="a-ofer a-cir-blue">
+                                    <div>
+                                        <img src="img/img/Pre_Promo_07.png" class="img-sugerent img-responsive" alt="" style="margin-top:1%;"> 
+                                        <div style="width: 50%;position: relative;display: inline-table;margin-left: 2%;">
+                                            <span style="font-size:115%;font-weight:700;">Prueba</span><span style="display:block;font-size:90%;">Detalles Producto</span>
+                                        </div>
+                                        <span style="margin-top:4%;" class="pull-right text-muted small">350$</span>
+                                    </div>
+                                </a>
+                            </li>
+                </ul>
+                <button type="button" class="search-btn open" id="search-open">
+                    <span class="fa fa-search form-control-feedback" style="color:white;top:4px;cursor:pointer;position:relative;"></span>
+                </button>
+                <button type="button" class="search-btn closes" id="search-closes">
+                    <span class="fa fa-times form-control-feedback" style="color:white;top:4px;cursor:pointer;position:relative;"></span>
+                </button>
+                <ul class="nav navbar-top-links navbar-right ofer-white hola">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle ofer-blue a-ofer a-cir-blue" data-toggle="dropdown" href="#">
+                            <i class="fa fa-shopping-cart fa-fw"></i> <i class="fa fa-caret-down"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-alerts">
+                            <li>
+                                <a href="cart-shopping.html" class="a-ofer a-cir-blue">
+                                    <div>
+                                        <img src="img/img/Pre_Promo_03.png" class="img-sugerent" alt="" style="margin-top:1%;"> 
+                                        <div style="width: 50%;position: relative;display: inline-table;margin-left: 2%;">
+                                            <span style="font-size:115%;font-weight:700;">Prueba</span><span style="display:block;font-size:90%;">Detalles Producto</span>
+                                        </div>
+                                        <span style="margin-top:6%;line-height:1.5;" class="pull-right text-muted small">X</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="cart-shopping.html" class="a-ofer a-cir-blue">
+                                    <div>
+                                        <img src="img/img/Pre_Promo_04.png" class="img-sugerent" alt="" style="margin-top:1%;"> 
+                                        <div style="width: 50%;position: relative;display: inline-table;margin-left: 2%;">
+                                            <span style="font-size:115%;font-weight:700;">Prueba</span><span style="display:block;font-size:90%;">Detalles Producto</span>
+                                        </div>
+                                        <span style="margin-top:6%;line-height:1.5;" class="pull-right text-muted small">X</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="cart-shopping.html" class="a-ofer a-cir-blue">
+                                    <div>
+                                        <img src="img/img/Pre_Promo_08.png" class="img-sugerent" alt="" style="margin-top:1%;"> 
+                                        <div style="width: 50%;position: relative;display: inline-table;margin-left: 2%;">
+                                            <span style="font-size:115%;font-weight:700;">Prueba</span><span style="display:block;font-size:90%;">Detalles Producto</span>
+                                        </div>
+                                        <span style="margin-top:6%;line-height:1.5;" class="pull-right text-muted small">X</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="cart-shopping.html" class="a-ofer a-cir-blue">
+                                    <div>
+                                        <img src="img/img/Pre_Promo_07.png" class="img-sugerent" alt="" style="margin-top:1%;"> 
+                                        <div style="width: 50%;position: relative;display: inline-table;margin-left: 2%;">
+                                            <span style="font-size:115%;font-weight:700;">Prueba</span><span style="display:block;font-size:90%;">Detalles Producto</span>
+                                        </div>
+                                        <span style="margin-top:6%;line-height:1.5;" class="pull-right text-muted small">X</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="cart-shopping.html" class="a-ofer a-cir-blue">
+                                    <div>
+                                        <img src="img/img/Pre_Promo_07.png" class="img-sugerent" alt="" style="margin-top:1%;"> 
+                                        <div style="width: 50%;position: relative;display: inline-table;margin-left: 2%;">
+                                            <span style="font-size:115%;font-weight:700;">Prueba</span><span style="display:block;font-size:90%;">Detalles Producto</span>
+                                        </div>
+                                        <span style="margin-top:6%;line-height:1.5;" class="pull-right text-muted small">X</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle ofer-blue a-ofer a-cir-blue" data-toggle="dropdown" href="#">
+                            <i class="fa fa-bell fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-alerts" id="notif">
+                            <li class="notif-login-in" id="notif-login-in">
+                                <a href="#" class="a-ofer a-cir-blue">
+                                    <div>
+                                        <span style="color:blue">Iniciar Sesion</span> para Recibir Notificaciones
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#" class="a-ofer a-cir-blue">
+                                    <div>
+                                        <i class="fa fa-twitter fa-fw"></i> Lorem ipsum.
+                                        <span class="pull-right text-muted small">Hace 12 minutos</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#" class="a-ofer a-cir-blue">
+                                    <div>
+                                        <i class="fa fa-envelope fa-fw"></i> Mensajes Enviado
+                                        <span class="pull-right text-muted small">Hace 4 minutos</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#" class="a-ofer a-cir-blue">
+                                    <div>
+                                        <i class="fa fa-tasks fa-fw"></i> Lorem ipsum.
+                                        <span class="pull-right text-muted small">Hace 10 segundos</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- /.dropdown-alerts -->
+                    </li>
+                    <!-- /.dropdown -->
+                </ul>
+                <div class="search-responsive form-group input-group" id="#search-group">
+                    <input type="text" placeholder="Buscar" class="input-responsive form-control" style="padding-left: 6px;width: 76%;">
+                    <span class="input-group-btn">
+                        <button class="btn blue a-ofer a-cir-purple" type="button"><i class="fa fa-search" ></i>
+                        </button>
+                    </span>
+                </div>
+                <!-- /.navbar-top-links -->
+
+                
+                <!-- /.navbar-static-side -->
+            </nav>    
+            <div class="sidebar animation-nav" role="navigation" id="sidebar">
+                <div class="sidebar-nav navbar-collapse hiden" id="sidebar-primary">
+                    <div class="nav in login-panel-a text-center" style="border-bottom: 1px solid rgb(238, 238, 238);padding-bottom: 10px;" id="navin">
+                        <div class="registro contenedor-formulario" style="">
+                            <div class="wrap">
+                                <form action="" class="formulario" name="formulario_registro" method="get">
+                                    <div id="login-add" style="display:none">
+                                        <h3 style="color:7884fe">Registrate</h3>
+                                        <div class="input-group">
+                                            <input type="text" id="nombre" name="nombre">
+                                            <label class="label" for="nombre">Nombre:</label>
+                                        </div>
+                                        <div class="input-group">
+                                            <input type="email" id="correo" name="correo">
+                                            <label class="label" for="correo">Correo:</label>
+                                        </div>
+                                        <div class="input-group">
+                                            <input type="password" id="pass" name="pass">
+                                            <label class="label" for="pass">Contraseña:</label>
+                                        </div>
+                                        <div class="input-group">
+                                            <input type="password" id="pass2" name="pass2">
+                                            <label class="label" for="pass2">Repetir Contraseña:</label>
+                                        </div>
+                                        <!--<div class="input-group radio">
+                                                <input type="radio" name="sexo" id="hombre" value="Hombre">
+                                                <label for="hombre">Hombre</label>
+                                                <input type="radio" name="sexo" id="mujer" value="Mujer">
+                                                <label for="mujer">Mujer</label>
+                                            </div> -->
+                                        <div class="input-group checkbox">
+                                            <input type="checkbox" name="terminos" id="terminos" value="true">
+                                            <label for="terminos">Acepto los Terminos y Condiciones</label>
+                                        </div>
+                                            
+                                        <button type="button" class="btn btn-ofer btn-cir-purple blue" id="btn-add-in">Guardar</button>
+                                        <button type="button" class="btn btn-ofer btn-cir-blue purple">Limpiar</button>
+                                    </div>
+                                    <div id="login-in">
+                                        <h3 style="color:7884fe">Ingresar</h3>
+                                        <div class="input-group">
+                                            <input type="email" id="nombre" name="nombre">
+                                            <label class="label" for="nombre">Correo:</label>
+                                        </div>
+                                        <div class="input-group">
+                                            <input type="password" id="pass" name="pass">
+                                            <label class="label" for="pass">Contraseña:</label>
+                                        </div>
+                                        <button type="button" class="btn btn-ofer btn-cir-purple blue" id="btn-in" style="margin-top:9px;">Entrar</button>
+                                        <button type="button" id="btn-add" class="btn btn-ofer btn-cir-blue purple" style="margin-top:9px;">Registrate</button>
+                                    </div>
+                                </form>
+                                <div class="img-login" id="login-img" style="display:none">
+                                    <img src="img/img-user.jpg" alt="">
+                                    <h3>Lorem ipsum.</h3>
+                                    <button type="bottom" class="btn btn-ofer btn-cir-blue purple" style="margin-right:2px;">Configurar<i class="fa fa-gear fa-fw" ></i></button><button type="bottom" class="btn btn-ofer purple btn-cir-blue" id="btn-out">Salir<i class="fa fa-sign-out fa-fw" ></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="nav" id="side-menu" style="max-height:350px;">
+                        <li>
+                            <a href="index.html" class="ofer-purple a-ofer a-cir-purple"><i class="fa fa-map-marker fa-fw"></i> Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#" class="ofer-purple a-ofer a-cir-purple"><i class="fa fa-github-alt  fa-fw"></i> Kids & Babys<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="#" class="ofer-blue a-ofer a-cir-blue">Ropa para Niños</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ofer-blue a-ofer a-cir-blue">Escarpines</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ofer-blue a-ofer a-cir-blue">Juguetes</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ofer-blue a-ofer a-cir-blue">Accesorios</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ofer-blue a-ofer a-cir-blue">Ropa para Niños</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ofer-blue a-ofer a-cir-blue">Escarpines</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ofer-blue a-ofer a-cir-blue">Juguetes</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ofer-blue a-ofer a-cir-blue">Accesorios</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#" class="ofer-purple a-ofer a-cir-purple"><i class="fa fa-thumbs-o-up fa-fw"></i> Lo Más Vendido</a>
+                        </li>
+                        <li>
+                            <a href="forms.html" class="ofer-purple a-ofer a-cir-purple"><i class="fa fa-home fa-fw"></i> Hogar</a>
+                        </li>
+                        <li>
+                            <a href="#" class="ofer-purple a-ofer a-cir-purple"><i class="fa  fa-trophy fa-fw"></i>Lorem ipsum.<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="#" class="ofer-blue a-ofer a-cir-blue">Lorem ipsum.</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ofer-blue a-ofer a-cir-blue">Lorem ipsum.</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ofer-blue a-ofer a-cir-blue">Lorem ipsum.</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#" class="ofer-purple a-ofer a-cir-purple"><i class="fa fa-magic  fa-fw"></i> Rebajas<span class="fa arrow "></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="#" class="ofer-blue a-ofer a-cir-blue">Lorem ipsum.</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ofer-blue a-ofer a-cir-blue">Lorem ipsum.</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ofer-blue a-ofer a-cir-blue"><i class="fa fa-info-circle fa-fw"></i>Novedades</a>
+                                    <ul class="nav nav-third-level">
+                                        <li>
+                                            <a href="#" class="ofer-purple a-ofer a-cir-purple">Lorem ipsum.</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="ofer-purple a-ofer a-cir-purple">Lorem ipsum.</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="ofer-purple a-ofer a-cir-purple">Lorem ipsum.</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="ofer-purple a-ofer a-cir-purple">Lorem ipsum.</a>
+                                        </li>
+                                    </ul>
+                                    <!-- /.nav-third-level -->
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#" class="ofer-purple a-ofer a-cir-purple"><i class="fa fa-files-o fa-fw"></i> Comparar Productos<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="#" class="ofer-blue a-ofer a-cir-blue">Ninos</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ofer-blue a-ofer a-cir-blue" style="border-radius:0 0 15px 0;">Bebes</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                    </ul>
+                    <div class="nav-network">
+                        <ul>
+                            <li>
+                                <div class="network1">
+                                    <a href=""><span class="rotate"><i class="fa fa-facebook fa-fw"></i></span></a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="network1">
+                                    <a href=""><span class="rotate"><i class="fa fa-twitter fa-fw"></i></span></a>
+                                </div>
+                            </li>
+                            <li>
+                                 <div class="network1">
+                                    <a href=""><span class="rotate"><i class="fa fa-google fa-fw"></i></span></a>
+                                </div>
+                            </li>
+                            <li>
+                                 <div class="network1">
+                                    <a href=""><span class="rotate"><i class="fa fa-instagram fa-fw"></i></span></a>
+                                </div>
+                            </li>
+                          </ul>  
+                    </div>
+                </div>
+                <div class="sidebar-nav navbar-collapse" id="sidebar-secund" style="color:white">
+                    <div class="icon-sidebar-secund">
+                        <ul>
+                            <li><span><i class="fa fa-user fa-fw"></i></span></li>
+                            <li><span><i class="fa fa-map-marker fa-fw"></i></span></li>
+                            <li><span><i class="fa fa-github-alt fa-fw"></i></span></li>
+                            <li><span><i class="fa fa-thumbs-o-up fa-fw"></i></span></li>
+                            <li><span><i class="fa fa-home fa-fw"></i></span></li>
+                            <li><span><i class="fa fa-trophy fa-fw"></i></span></li>
+                            <li><span><i class="fa fa-magic fa-fw"></i></span></li>
+                            <li><span><i class="fa fa-info-circle fa-fw"></i></span></li>
+                        </ul>   
+                    </div>
+                    <div class="network-secund">
+                        <ul>
+                            <li><span><i class="fa fa-facebook fa-fw"></i></span></li>
+                            <li><span><i class="fa fa-twitter fa-fw"></i></span></li>
+                            <li><span><i class="fa fa-google fa-fw"></i></span></li>
+                            <li><span><i class="fa fa-instagram fa-fw"></i></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+        </nav>
+        <div class="sidebar-nav navbar-collapse chats" role="navigation" id="chats" style="display: none">
+            <div class="chats-list">
+                <div id="hhh" style="position: relative;width: 100%;height: auto;">
+                    <div class="title-chats">
+                        <h3 style="display: inline-block">Chats</h3>
+                        <div class="close-chat">
+                            <span><i class="fa fa-times fa-fw"></i></span>
+                        </div>
+                    </div>
+                    <div class="input-group custom-search-form search-chats">
+                        <input type="text" class="form-control input-chats" placeholder="Buscar..." style="appearance: none;-webkit-appearance: none;color: #fff;">
+                        <span class="input-group-addon input-group-addon-chats" style="width: 20%;">
+                            <i class="fa fa-search fa-fw"></i>                        
+                        </span>
+                    </div>
+                </div>
+                <ul class="list">
+                    <li class="clearfix l">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_01.jpg" alt="avatar">
+                        <div class="about">
+                            <div class="name">Vincente Gonzales</div>
+                            <div class="status">
+                              <i class="fa fa-circle online"></i> en linea
+                            </div>
+                        </div>
+                    </li>
+                    <li class="clearfix l">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_02.jpg" alt="avatar">
+                        <div class="about">
+                            <div class="name">Aiden Chavez</div>
+                            <div class="status">
+                              <i class="fa fa-circle offline"></i> Hace 7 mins
+                            </div>
+                        </div>
+                    </li>
+                    <li class="clearfix l">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_03.jpg" alt="avatar">
+                        <div class="about">
+                            <div class="name">Mike Thomas</div>
+                            <div class="status">
+                              <i class="fa fa-circle online"></i> en linea
+                            </div>
+                        </div>
+                    </li>
+                    <li class="clearfix l">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_04.jpg" alt="avatar">
+                        <div class="about">
+                            <div class="name">Erica Hughes</div>
+                            <div class="status">
+                              <i class="fa fa-circle online"></i> en linea
+                            </div>
+                        </div>
+                    </li>
+                    <li class="clearfix l">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_05.jpg" alt="avatar">
+                        <div class="about">
+                        <div class="name">Ginger Johnston</div>
+                            <div class="status">
+                              <i class="fa fa-circle online"></i> en linea
+                            </div>
+                        </div>
+                    </li>
+                    <li class="clearfix l">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_06.jpg" alt="avatar">
+                        <div class="about">
+                            <div class="name">Tracy Carpenter</div>
+                            <div class="status">
+                                <i class="fa fa-circle offline"></i> Hace 30 mins
+                            </div>
+                        </div>
+                    </li>
+                    <li class="clearfix l">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_07.jpg" alt="avatar">
+                        <div class="about">
+                            <div class="name">Christian Kelly</div>
+                            <div class="status">
+                                <i class="fa fa-circle offline"></i> Hace 10 horas
+                            </div>
+                        </div>
+                    </li>
+               </ul>
+            </div>
+            <div class="chats-message">
+                <div class="chat-header clearfix">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_01_green.jpg" alt="avatar">
+                    
+                    <div class="chat-about">
+                        <div class="chat-with">Vincente Gonzales</div>
+                        <div class="after">
+                            <span><i class="fa fa-chevron-circle-right fa-fw"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-history">
+                    <ul>
+                        <li class="clearfix">
+                            <div class="message-data text-right">
+                                <span class="message-data-time">10:10 AM, Hoy</span> &nbsp; &nbsp;
+                                <span class="message-data-name">Olia</span> <i class="fa fa-circle me"></i>
+                            </div>
+                            <div class="message other-message float-right">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </div>
+                        </li>
+                          
+                        <li>
+                            <div class="message-data">
+                                <span class="message-data-name"><i class="fa fa-circle online"></i> Vincente</span>
+                                <span class="message-data-time">10:12 AM, Hoy</span>
+                            </div>
+                            <div class="message my-message">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, dicta.
+                            </div>
+                        </li>
+                          
+                        <li class="clearfix">
+                            <div class="message-data text-right">
+                                <span class="message-data-time">10:14 AM, Hoy</span> &nbsp; &nbsp;
+                                <span class="message-data-name">Olia</span> <i class="fa fa-circle me"></i>
+                              
+                            </div>
+                            <div class="message other-message float-right">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, commodi, excepturi. Porro ab, cum ullam sit aspernatur debitis repudiandae eos dignissimos amet nostrum excepturi quia.
+                            </div>
+                        </li>
+                          
+                        <li>
+                            <div class="message-data">
+                                <span class="message-data-name"><i class="fa fa-circle online"></i> Vincente</span>
+                                <span class="message-data-time">10:20 AM, Hoy</span>
+                            </div>
+                            <div class="message my-message">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, nihil.
+                            </div>
+                        </li>
+                          
+                        <li>
+                            <div class="message-data">
+                                <span class="message-data-name"><i class="fa fa-circle online"></i> Vincente</span>
+                                <span class="message-data-time">10:31 AM, Hoy</span>
+                            </div>
+                            <i class="fa fa-circle online"></i>
+                            <i class="fa fa-circle online" style="color: #AED2A6"></i>
+                            <i class="fa fa-circle online" style="color:#DAE9DA"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="chat-message clearfix">
+                    <textarea name="message-to-send" id="message-to-send" placeholder="Escribe tu mensaje aqui" rows="3"></textarea>
+                           
+                    <i class="fa fa-file-o"></i> &nbsp;&nbsp;&nbsp;
+                    <i class="fa fa-file-image-o"></i>
+                    
+                    <button type="bottom" class="btn btn-ofer btn-cir-blue purple">Enviar</button>
+                </div>
+            </div>
+        </div>
+        <div id="sidebar-fill" class="sidebar-fill">
+            <div class="sidebar-nav navbar-collapse" style="padding: 3% 2% 15% 3%;border-right: 1px solid #eee;border-bottom: 1px solid #eee;">
+
+                <div class="catergory">
+                    <button type="bottom" class="btn btn-list btn-ofer btn-cir-blue purple"><span><i class="fa fa-chevron-left fa-fw"></i></span>Caterigas</button>
+                </div>
+                <div class="detall-search-list">
+                    <div class="fill-list">
+                        <div class="">
+                            <h4>Filtar busqueda por:</h4>
+                        </div>
+                        <div class="location">
+                            <div class="title-list">
+                                <h5>Ubicacion:</h5>
+                            </div>
+                            <ul class="nav">
+                                <li><a href="">Lorem ipsum dolor.</a></li>
+                                <li><a href="">Modi, quo animi?</a></li>
+                                <li><a href="">Qui, hic, saepe!</a></li>
+                                <li><a href="">Dolorem, illo, quasi?</a></li>
+                                <li><a href="">Saepe, nostrum id.</a></li>
+                                <li><a href="">Mostrar Mas <span><i class="fa fa-plus-square fa-fw"></i></span></a></li>
+                            </ul>
+                        </div>
+                        <div class="brand">
+                            <div class="title-list">
+                                <h5>Marca:</h5>
+                            </div>
+                            <ul class="nav">
+                               <li><a href="">Lorem ipsum dolor.</a></li>
+                               <li><a href="">Dolorum non, sed!</a></li>
+                               <li><a href="">Vero neque, quis.</a></li>
+                               <li><a href="">Ipsam, suscipit, omnis.</a></li>
+                               <li><a href="">Sed reiciendis, hic.</a></li>
+                               <li><a href="">Mostrar Mas <span><i class="fa fa-plus-square fa-fw"></i></span></a></li>
+                           </ul>   
+                        </div>
+                        <div class="price">
+                            <div class="title-list">
+                                <h5>Precio:</h5>
+                            </div>
+                            <span>Rangos de Precio</span>
+                            <ul class="nav">
+                                <li><a href="">300$ a 500$</a></li>
+                                <li><a href="">600$ a 780$</a></li>
+                                <li><a href="">800$ a 1000$</a></li>
+                                <li><a href="">Mostrar Mas <span><i class="fa fa-plus-square fa-fw"></i></span></a></li>
+
+                            </ul>
+                            <div class="form-group input-group" style="margin-top:5px">
+                                <span class="input-group-addon blue ofer-white">$</span>
+                                <input class="form-control mask-money" placeholder="de">
+                                <span class="input-group-addon blue ofer-white">$</span>
+                                <input class="form-control mask-money" placeholder="hasta">
+                            </div>
+                            <button class="btn-list btn btn-ofer btn-cir-blue purple">Filtrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="public-art">
+                <div class="col-md-12 ">
+                    <div class="blue img-art img" style="padding: 8% 0px 8% 0px;margin-bottom:8px;">
+                        <img src="img/img/Pre_Promo_06.png" class="img-responsive" alt="">
+                         <div class="blue hover-art">
+                            <span>Bebes Hola Prueba</span>
+                            <span>360$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 ">
+                    <div class="purple img-art img" style="padding: 8% 0px 8% 0px;margin-bottom:8px;">
+                        <img src="img/img/Pre_Promo_07.png" class="img-responsive" alt="">
+                         <div class="purple hover-art">
+                            <span>Bebes Hola Prueba</span>
+                            <span>360$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 ">
+                    <div class="blue img-art img" style="padding: 8% 0px 8% 0px;margin-bottom:8px;">
+                        <img src="img/img/Pre_Promo_06.png" class="img-responsive" alt="">
+                         <div class="blue hover-art">
+                            <span>Bebes Hola Prueba</span>
+                            <span>360$</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page-wrapper" class="page-art">
+
+            <div class="icon-chats">
+                <span><i class="fa fa-wechat fa-fw"></i></span>
+            </div>
+            <div class="col-md-9" style="margin-right: 0">
+                <div class="bar-result">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="table-result" role="status" aria-live="polite">
+                                Resultados de la Busqueda 1 a 10 de 57 Articulos 
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 form-group">
+                            <div class="col-xs-6">
+                                <select class="form-control" id="ordenar">
+                                  <option selected="select">Ordenar:</option>
+                                  <option>Precio Mayor</option>
+                                  <option>Precio Relvante</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 col-xs-6">
+                                <select class="form-control" id="filtrar">
+                                  <option selected="select">Filtrar:</option>
+                                  <option>Ubicacion</option>
+                                  <option>Marca</option>
+                                </select>
+                            </div>
+
+                            <ul class="nav nav-tabs" id="nav-tabs" style="float:right">
+                                <li>
+                                    <a href="#" id="mosaico" class="a-ofer a-cir-purple blue"><span><i class="fa fa-th-large fa-fw"></i></span></a>
+                                </li>
+                                <li>
+                                    <a href="#" id="list" class="a-ofer a-cir-purple blue"><span><i class="fa fa-navicon fa-fw"></i></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin:0 auto">
+                    <div class="col-md-12 resul">
+                        <div class="row" id="view" style="margin:0 auto">
+                            <div class="col-md-4 art col-sm-6 col-xs-12">
+                                <div class="articulo">
+                                    <a href="#" id="view-art">
+                                        <div class="img-art-view">
+                                            <img src="img/img/Pre_Promo_07.png" alt="" class="img-responsive">
+                                        </div>
+                                    </a>
+                                    <div class="detall-art padding-mosaico">
+                                        <div class="name">
+                                            <h4>Lorem ipsum dolor.</h4>
+                                        </div style="margin:0 auto">
+                                        <div class="price">
+                                            <span>300$</span>
+                                        </div>
+                                        <div class="text-art">
+                                            <p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam reiciendis atque consequuntur cupiditate repellendus quae soluta iste voluptate, perferendis a.m.</p>
+                                        </div>
+                                        <div class="btn-like">
+                                            <button type="bottom" class="btn btn-ofer btn-cir-purple blue"><span><i class="fa fa-thumbs-o-up fa-fw"></i></span></button>
+                                            <button type="bottom" class="btn btn-ofer btn-cir-purple blue"><span><i class="fa fa-thumbs-o-down"></i></span></button>
+                                        </div>
+                                        <button type="bottom" class="btn btn-ofer btn-cir-blue purple btn-art" id="view-art">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 art col-sm-6 col-xs-12">
+                                <div class="articulo">
+                                    <a href="#" id="view-art">
+                                        <div class="img-art-view">
+                                            <img src="img/img/Pre_Promo_07.png" alt="" class="img-responsive">
+                                        </div>
+                                    </a>
+                                    <div class="detall-art padding-mosaico ">
+                                        <div class="name">
+                                            <h4>Lorem ipsum dolor.</h4>
+                                        </div style="margin:0 auto">
+                                        <div class="price">
+                                            <span>300$</span>
+                                        </div>
+                                        <div class="text-art">
+                                            <p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. At error, ab, saepe eum ad impedit fugiat quo praesentium ut alias!tionem?</p>
+                                        </div>
+                                        <div class="btn-like">
+                                            <button type="bottom" class="btn btn-ofer btn-cir-purple blue"><span><i class="fa fa-thumbs-o-up fa-fw"></i></span></button>
+                                            <button type="bottom" class="btn btn-ofer btn-cir-purple blue"><span><i class="fa fa-thumbs-o-down"></i></span></button>
+                                        </div>
+                                        <button type="bottom" class="btn btn-ofer btn-cir-blue purple btn-art" id="view-art">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 art col-sm-6 col-xs-12">
+                                <div class="articulo">
+                                    <a href="#" id="view-art">
+                                        <div class="img-art-view">
+                                            <img src="img/img/Pre_Promo_07.png" alt="" class="img-responsive">
+                                        </div>
+                                    </a>
+                                    <div class="detall-art padding-mosaico ">
+                                        <div class="name">
+                                            <h4>Lorem ipsum dolor.</h4>
+                                        </div style="margin:0 auto">
+                                        <div class="price">
+                                            <span>300$</span>
+                                        </div>
+                                        <div class="text-art">
+                                             <p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam reiciendis atque consequuntur cupiditate repellendus quae soluta iste voluptate, perferendis a.m.</p>
+                                        </div>
+                                        <div class="btn-like">
+                                            <button type="bottom" class="btn btn-ofer btn-cir-purple blue"><span><i class="fa fa-thumbs-o-up fa-fw"></i></span></button>
+                                            <button type="bottom" class="btn btn-ofer btn-cir-purple blue"><span><i class="fa fa-thumbs-o-down"></i></span></button>
+                                        </div>
+                                        <button type="bottom" class="btn btn-ofer btn-cir-blue purple btn-art" id="view-art">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 art col-sm-6 col-xs-12">
+                                <div class="articulo">
+                                    <a href="#" id="view-art">
+                                        <div class="img-art-view">
+                                            <img src="img/img/Pre_Promo_07.png" alt="" class="img-responsive">
+                                        </div>
+                                    </a>
+                                    <div class="detall-art padding-mosaico ">
+                                        <div class="name">
+                                            <h4>Lorem ipsum dolor.</h4>
+                                        </div style="margin:0 auto">
+                                        <div class="price">
+                                            <span>300$</span>
+                                        </div>
+                                        <div class="text-art">
+                                             <p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam reiciendis atque consequuntur cupiditate repellendus quae soluta iste voluptate, perferendis a.m.</p>
+                                        </div>
+                                        <div class="btn-like">
+                                            <button type="bottom" class="btn btn-ofer btn-cir-purple blue"><span><i class="fa fa-thumbs-o-up fa-fw"></i></span></button>
+                                            <button type="bottom" class="btn btn-ofer btn-cir-purple blue"><span><i class="fa fa-thumbs-o-down"></i></span></button>
+                                        </div>
+                                        <button type="bottom" class="btn btn-ofer btn-cir-blue purple btn-art" id="view-art">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 art col-sm-6 col-xs-12">
+                                <div class="articulo">
+                                    <a href="#" id="view-art">
+                                        <div class="img-art-view">
+                                            <img src="img/img/Pre_Promo_07.png" alt="" class="img-responsive">
+                                        </div>
+                                    </a>
+                                    <div class="detall-art padding-mosaico ">
+                                        <div class="name">
+                                            <h4>Lorem ipsum dolor.</h4>
+                                        </div style="margin:0 auto">
+                                        <div class="price">
+                                            <span>300$</span>
+                                        </div>
+                                        <div class="text-art">
+                                            <p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, illum eos qui culpa deleniti, minima similique molestiae molestias ab numquam!</p>
+                                        </div>
+                                        <div class="btn-like">
+                                            <button type="bottom" class="btn btn-ofer btn-cir-purple blue"><span><i class="fa fa-thumbs-o-up fa-fw"></i></span></button>
+                                            <button type="bottom" class="btn btn-ofer btn-cir-purple blue"><span><i class="fa fa-thumbs-o-down"></i></span></button>
+                                        </div>
+                                        <button type="bottom" class="btn btn-ofer btn-cir-blue purple btn-art" id="view-art">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 art col-sm-6 col-xs-12">
+                                <div class="articulo">
+                                    <a href="#" id="view-art">
+                                        <div class="img-art-view">
+                                            <img src="img/img/Pre_Promo_07.png" alt="" class="img-responsive">
+                                        </div>
+                                    </a>
+                                    <div class="detall-art padding-mosaico ">
+                                        <div class="name">
+                                            <h4>Lorem ipsum dolor.</h4>
+                                        </div style="margin:0 auto">
+                                        <div class="price">
+                                            <span>300$</span>
+                                        </div>
+                                        <div class="text-art">
+                                             <p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam reiciendis atque consequuntur cupiditate repellendus quae soluta iste voluptate, perferendis a.m.</p>
+                                        </div>
+                                        <div class="btn-like">
+                                            <button type="bottom" class="btn btn-ofer btn-cir-purple blue"><span><i class="fa fa-thumbs-o-up fa-fw"></i></span></button>
+                                            <button type="bottom" class="btn btn-ofer btn-cir-purple blue"><span><i class="fa fa-thumbs-o-down"></i></span></button>
+                                        </div>
+                                        <button type="bottom" class="btn btn-ofer btn-cir-blue purple btn-art" id="view-art">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 art col-sm-6 col-xs-12">
+                                <div class="articulo">
+                                    <a href="#" id="view-art">
+                                        <div class="img-art-view">
+                                            <img src="img/img/Pre_Promo_07.png" alt="" class="img-responsive">
+                                        </div>
+                                    </a>
+                                    <div class="detall-art padding-mosaico ">
+                                        <div class="name">
+                                            <h4>Lorem ipsum dolor.</h4>
+                                        </div style="margin:0 auto">
+                                        <div class="price">
+                                            <span>300$</span>
+                                        </div>
+                                        <div class="text-art">
+                                             <p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam reiciendis atque consequuntur cupiditate repellendus quae soluta iste voluptate, perferendis a.m.</p>
+                                        </div>
+                                        <div class="btn-like">
+                                            <button type="bottom" class="btn btn-ofer btn-cir-purple blue"><span><i class="fa fa-thumbs-o-up fa-fw"></i></span></button>
+                                            <button type="bottom" class="btn btn-ofer btn-cir-purple blue"><span><i class="fa fa-thumbs-o-down"></i></span></button>
+                                        </div>
+                                        <button type="bottom" class="btn btn-ofer btn-cir-blue purple btn-art" id="view-art">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 art col-sm-6 col-xs-12">
+                                <div class="articulo">
+                                    <a href="#" id="view-art">
+                                        <div class="img-art-view">
+                                            <img src="img/img/Pre_Promo_07.png" alt="" class="img-responsive">
+                                        </div>
+                                    </a>
+                                    <div class="detall-art padding-mosaico ">
+                                        <div class="name">
+                                            <h4>Lorem ipsum dolor.</h4>
+                                        </div style="margin:0 auto">
+                                        <div class="price">
+                                            <span>300$</span>
+                                        </div>
+                                        <div class="text-art">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam cum ducimus voluptatem eveniet, tempore sit repellat maiores, dolorum quod! A?</p>
+                                        </div>
+                                        <div class="btn-like">
+                                            <button type="bottom" class="btn btn-ofer btn-cir-purple blue"><span><i class="fa fa-thumbs-o-up fa-fw"></i></span></button>
+                                            <button type="bottom" class="btn btn-ofer btn-cir-purple blue"><span><i class="fa fa-thumbs-o-down"></i></span></button>
+                                        </div>
+                                        <button type="bottom" class="btn btn-ofer btn-cir-blue purple btn-art" id="view-art">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 art col-sm-6 col-xs-12">
+                                <div class="articulo">
+                                    <a href="#" id="view-art">
+                                        <div class="img-art-view">
+                                            <img src="img/img/Pre_Promo_07.png" alt="" class="img-responsive">
+                                        </div>
+                                    </a>
+                                    <div class="detall-art padding-mosaico ">
+                                        <div class="name">
+                                            <h4>Lorem ipsum dolor.</h4>
+                                        </div style="margin:0 auto">
+                                        <div class="price">
+                                            <span>300$</span>
+                                        </div>
+                                        <div class="text-art">
+                                             <p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam reiciendis atque consequuntur cupiditate repellendus quae soluta iste voluptate, perferendis a.m.</p>
+                                        </div>
+                                        <div class="btn-like">
+                                            <button type="bottom" class="btn btn-ofer btn-cir-purple blue"><span><i class="fa fa-thumbs-o-up fa-fw"></i></span></button>
+                                            <button type="bottom" class="btn btn-ofer btn-cir-purple blue"><span><i class="fa fa-thumbs-o-down"></i></span></button>
+                                        </div>
+                                        <button type="bottom" class="btn btn-ofer btn-cir-blue purple btn-art" id="view-art">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pagination-art">
+                            <ul class="pagination">
+                                <li><a href="#">Anterior</a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">Siguiente</a></li>
+                            </ul>        
+                        </div>
+                    </div>
+                    <footer class="col-md-12">
+                        <div class="col-md-12">
+                            <div class="col-md-4 col-xs-4">
+                                <h5>Lorem ipsum.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, assumenda.</p>
+                            </div>
+                            <div class="col-md-4 col-xs-4">
+                                <h5>Lorem ipsum.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, tempora.</p>
+                            </div>
+                            <div class="col-md-4 col-xs-4">
+                                <h5>Lorem ipsum.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quia.</p>
+                            </div>      
+                        </div>
+                        <div class="col-xs-12" id="network-footer" style="text-align: center;">
+                            <ul style="display:inline-flex;list-style:none;font-size:170%;">
+                                <li>
+                                    <div class="network1">
+                                        <a href=""><span class="rotate"><i class="fa fa-facebook fa-fw"></i></span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="network1">
+                                        <a href=""><span class="rotate"><i class="fa fa-twitter fa-fw"></i></span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                     <div class="network1">
+                                        <a href=""><span class="rotate"><i class="fa fa-google fa-fw"></i></span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                     <div class="network1">
+                                        <a href=""><span class="rotate"><i class="fa fa-instagram fa-fw"></i></span></a>
+                                    </div>
+                                </li>
+                              </ul>  
+                        </div>
+                    </footer>
+                </div>
+            </div>
+            <div class="col-md-3 public" style="margin-top:2%;margin-right: 0">
+                    <div class="col-md-12 ">
+                        <div class="blue img-art img" style="padding: 8% 0px 8% 0px;margin-bottom:8px;">
+                            <a href="view-art.html">
+                                <img src="img/img/Pre_Promo_06.png" class="img-responsive" alt="">
+                            </a>
+                            <div class="blue hover-art">
+                                <span>Bebes Hola Prueba</span>
+                                <span>360$</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12 ">
+                        <div class="purple img-art img" style="padding: 8% 0px 8% 0px;margin-bottom:8px;">
+                            <a href="view-art.html">
+                                <img src="img/img/Pre_Promo_07.png" class="img-responsive" alt="">
+                            </a>
+                            <div class="purple hover-art">
+                                <span>Bebes Hola Prueba</span>
+                                <span>360$</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 ">
+                        <div class="blue img-art img" style="padding: 8% 0px 8% 0px;margin-bottom:8px;">
+                            <a href="view-art.html">
+                                <img src="img/img/Pre_Promo_06.png" class="img-responsive" alt="">
+                            </a>
+                            <div class="blue hover-art">
+                                <span>Bebes Hola Prueba</span>
+                                <span>360$</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12 ">
+                        <div class="purple img-art img" style="padding: 8% 0px 8% 0px;margin-bottom:8px;">
+                            <a href="view-art.html">
+                                <img src="img/img/Pre_Promo_07.png" class="img-responsive" alt="">
+                            </a>
+                            <div class="purple hover-art">
+                                <span>Bebes Hola Prueba</span>
+                                <span>360$</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 ">
+                        <div class="blue img-art img" style="padding: 8% 0px 8% 0px;margin-bottom:8px;">
+                            <a href="view-art.html">
+                                <img src="img/img/Pre_Promo_06.png" class="img-responsive" alt="">
+                            </a>
+                            <div class="blue hover-art">
+                                <span>Bebes Hola Prueba</span>
+                                <span>360$</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12 ">
+                        <div class="purple img-art img" style="padding: 8% 0px 8% 0px;margin-bottom:8px;">
+                            <a href="view-art.html">
+                                <img src="img/img/Pre_Promo_07.png" class="img-responsive" alt="">
+                            </a>
+                            <div class="purple hover-art">
+                                <span>Bebes Hola Prueba</span>
+                                <span>360$</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="windows-modal">
+            <div class="art-detall" id="art-detall">
+                <header class="head">
+                    <button type="bottom" id="hide-art" class="btn btn-ofer btn-close-head"><span><i class="fa fa-times-circle fa-fw"></i></span></button>
+                    <div class="head-title">Lorem ipsum dolor.</div>
+                </header>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="articulo-view">
+                            <div id="myCarousel3" class="carousel slide img-art-detall" data-ride="carousel" data-interval="false">
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="img/img/Pre_Promo_07.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/img/Pre_Promo_07.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/img/Pre_Promo_07.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/img/Pre_Promo_07.png" alt="" class="img-responsive">
+                                    </div>
+                                  </div>
+
+                                <!-- Left and right controls -->
+                                <div  id="indicador-slide">
+                                    <a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#myCarousel3" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel3" data-slide-to="0" class="active">
+                                        <img src="img/img/Pre_Promo_07.png" alt="" class="img-responsive" id="img-show">
+                                    </li>
+                                    <li data-target="#myCarousel3" data-slide-to="1">
+                                        <img src="img/img/Pre_Promo_07.png" alt="" class="img-responsive" id="img-show">
+                                    </li>
+                                    <li data-target="#myCarousel3" data-slide-to="2">
+                                        <img src="img/img/Pre_Promo_07.png" alt="" class="img-responsive" id="img-show">
+                                    </li>
+                                    <li data-target="#myCarousel3" data-slide-to="3">
+                                        <img src="img/img/Pre_Promo_07.png" alt="" class="img-responsive" id="img-show">
+                                    </li>
+                                </ol>
+
+                            </div>
+                            <div class="detall-art-view">
+                                <div class="name">
+                                    <h4>Lorem ipsum dolor.</h4>
+                                </div style="margin:0 auto">
+                                <div class="price-view">
+                                    <span>300$</span>
+                                </div>
+                                <div class="text-art">
+                                     <p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam reiciendis atque consequuntur cupiditate repellendus quae soluta iste voluptate, perferendis a.m.</p>
+                                </div>
+                                <div class="btn-like">
+                                    <button type="bottom" class="btn btn-ofer btn-cir-purple blue"><span><i class="fa fa-thumbs-o-up fa-fw"></i></span></button>
+                                    <button type="bottom" class="btn btn-ofer btn-cir-purple blue"><span><i class="fa fa-thumbs-o-down"></i></span></button>
+                                </div>
+                                <button type="bottom" class="btn btn-ofer btn-cir-blue purple btn-art"><span><i class="fa fa-shopping-cart fa-fw"></i></span>Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="articulo-view">
+                            <div class="descrip-art">
+                                <h4>Detalles del Articulo</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, quidem, reprehenderit? Nisi qui magni, nemo earum adipisci suscipit at autem libero! Nihil repellendus voluptates numquam ratione, aperiam dolores voluptatum optio.
+                                </p>
+                                <div class="ct-art">
+                                    <h5>Caracteristicas del Prodcuto</h5>
+                                    <ul>
+                                        <li>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, esse.</p>
+                                        </li>
+                                        <li>
+                                            <p>Labore fuga eum ut vel doloremque vitae, itaque quibusdam, repellat?</p>
+                                        </li>
+                                        <li>
+                                            <p>Facilis molestias, reiciendis neque deserunt doloremque praesentium consequatur culpa tenetur!</p>
+                                        </li>
+                                        <li>
+                                            <p>Molestiae sapiente veritatis eligendi aut sunt blanditiis, assumenda veniam corporis!</p>
+                                        </li>
+                                        <li>
+                                            <p>Suscipit numquam omnis architecto tempora dolores quis nostrum, animi qui.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="ddetal">
+                                    <h5>Detalles del Producto</h5>
+                                    <ul>
+                                        <li>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, architecto!</p>
+                                        </li>
+                                        <li>
+                                            <p>In ut dolore placeat repudiandae aliquam aspernatur, labore est earum.</p>
+                                        </li>
+                                        <li>
+                                            <p>Pariatur, voluptatem! Quasi doloribus voluptatem rerum, fuga, pariatur obcaecati. Quas?</p>
+                                        </li>
+                                        <li>
+                                            <p>Nesciunt molestiae aliquid aspernatur fugiat deleniti quas, tempora nemo vero.</p>
+                                        </li>
+                                        <li>
+                                            <p>Recusandae labore quae porro quibusdam ipsa similique quis, eos atque?</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- jQuery -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="dist/js/sb-admin-2.js"></script>
+
+    <script src="dist/js/jquery-color.min.js"></script>
+</body>
+
+</html>
